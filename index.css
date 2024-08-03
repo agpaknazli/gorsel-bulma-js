@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: beige;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+ padding: 2rem;
+}
+
+#input{
+    width: 80%;
+    text-align: center;
+    margin: 2rem 5rem;  
+    padding: 0.7rem;
+    border: 2px solid rgba(0, 0, 255, 0.104);
+    border-radius: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+   
+}
+.button button{
+    width: 20%;
+    color: aliceblue;
+    padding: 0.5rem;
+    border: 2px solid rgba(172, 255, 47, 0.316);
+    border-radius: 0.7rem;
+}
